@@ -5,6 +5,7 @@ import 'dart:async';
 import 'package:libr/pages/onboarding_1.dart';
 import 'package:libr/pages/onboarding_2.dart';
 import 'package:libr/pages/home.dart';
+import 'package:libr/pages/detail.dart';
 
 
 class SplashScreen extends StatefulWidget {

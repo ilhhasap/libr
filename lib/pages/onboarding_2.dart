@@ -1,6 +1,7 @@
 // import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:libr/interface.dart';
 
 // Pages
 import 'package:libr/pages/splash_screen.dart';
@@ -93,7 +94,7 @@ class _MyStatefulWidget extends State<MyStatefulWidget> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Home()),
+                  MaterialPageRoute(builder: (context) => Interface()),
                 );
               },
               child: Text(
